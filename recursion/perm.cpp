@@ -6,7 +6,8 @@ const int N = 5;
 /**
 *排列问题，对王晓东的《算法设计与分析》3，做了些改动，加入了一个
 *const int start，可以决定所有排列从第几个元素开始输入，个人觉得
-*书上的从0开始输出不好（指的是第16行，若我的代码没有被修改）
+*书上的从0开始输出不好（指的是第17行，若我的代码没有被修改）
+*zzuwenjie 2017-3-8 14:25:07
 **/
 template <class Type>
 void Perm (Type listNum[], const int start, int k, int m) {
