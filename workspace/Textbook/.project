@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>Textbook</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>src/object.dat</name>
+			<type>1</type>
+			<locationURI>PROJECT_LOC/object.dat</locationURI>
+		</link>
+		<link>
+			<name>src/out.txt</name>
+			<type>1</type>
+			<locationURI>PROJECT_LOC/out.txt</locationURI>
+		</link>
+		<link>
+			<name>src/test.txt</name>
+			<type>1</type>
+			<locationURI>PROJECT_LOC/test.txt</locationURI>
+		</link>
+		<link>
+			<name>src/text.txt</name>
+			<type>1</type>
+			<locationURI>PROJECT_LOC/text.txt</locationURI>
+		</link>
+	</linkedResources>
+</projectDescription>

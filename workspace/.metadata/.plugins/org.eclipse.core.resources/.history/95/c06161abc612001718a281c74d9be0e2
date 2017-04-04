@@ -1,0 +1,25 @@
+package page225;
+
+import java.io.IOException;
+import java.io.FileReader;
+import java.io.FileWriter;
+
+public class MyFileReaderWriter {
+	public static void mian(String[] args) {
+		try {
+			FileWriter fout = new FileWriter("test.txt");
+			fout.write("hello java");
+			fout.close();
+			
+			FileReader fin = new FileReader("test.txt");
+			for (int c = fin.read(); c != -1; c = fin.read()) {
+				System.out.print((char)c);
+			}
+			fin.close();
+		} catch (IOException e) {
+			System.err.println("·¢Éú´íÎó£º" + e);
+			e.printStackTrace();
+		}
+				
+	}
+}
