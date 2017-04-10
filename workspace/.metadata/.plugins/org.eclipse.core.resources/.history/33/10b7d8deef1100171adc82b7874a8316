@@ -1,6 +1,0 @@
-package page210;
-import java.io.PrintStream;
-import java.io.FileNotFoundException;
-public class PrintStream {
-	
-}

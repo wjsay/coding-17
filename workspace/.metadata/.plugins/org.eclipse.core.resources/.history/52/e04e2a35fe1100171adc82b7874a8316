@@ -1,8 +1,0 @@
-package page221;
-
-import java.io.IOException;
-import java.io.RandomAccessFile;
-
-public class MyRandomAcessFile {
-
-}
